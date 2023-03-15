@@ -1,0 +1,27 @@
+.quote-container {
+  text-align: center;
+}
+
+.quote-space-top {
+  height: 350px;
+}
+
+.quote-space-bottom {
+  height: 300px;
+}
+
+.quote-large {
+  font-size: 50px;
+  font-weight: 800;
+}
+.quote-small {
+  padding-top: 20px;
+  font-style: italic;
+  font-size: 23px;
+  color: black;
+}
+
+.quote-small .keyword {
+  font-weight: 800;
+  color: #a769f3;
+}

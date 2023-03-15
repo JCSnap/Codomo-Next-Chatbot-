@@ -1,0 +1,28 @@
+.mission-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 80px 5%;
+  background-color: white;
+}
+
+.mission-description {
+  width: 50%;
+  font-size: 25px;
+  font-weight: 420;
+}
+
+.mission-keyword {
+  text-decoration: underline;
+}
+
+.mission-image {
+  width: 50%;
+  padding-left: 10%;
+  min-width: 350px;
+}
+
+.mission-image img {
+  width: 350px;
+  height: 100%;
+}
