@@ -12,8 +12,8 @@ def api():
     data = request.get_json()
     # Process the request data here
     prompt = instructions + general + data['prompt']
-    openai.organization = "org-bvlKBmngxqAVQHzFfuyAjggS"
-    openai.api_key = "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"
+    openai.organization = ""
+    openai.api_key = ""
     openai.Model.list()
     completions = openai.Completion.create(
         model="text-davinci-003",
